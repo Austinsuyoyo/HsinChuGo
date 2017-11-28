@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">風城迷走</string>
+    <string name="title_activity_mission_1">任務一</string>
+    <string name="title_activity_mission_route">任務一路線</string>
+    <string name="title_activity_mission_1_question_1">任務一  春池玻璃工廠</string>
+    <string name="title_activity_mission_1_task_1">春池玻璃工廠</string>
+    <string name="title_activity_mission_1question_1_task_1">自然題</string>
+</resources>

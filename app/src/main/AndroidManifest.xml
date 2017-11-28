@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="studio.su.austin.hsinchugo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mission"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mission_1"
+            android:label="@string/title_activity_mission_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mission_route"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_mission_route"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Sliding.Light" />
+        <activity
+            android:name=".mission_1_question_1"
+            android:label="@string/title_activity_mission_1_question_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mission_1_task_1"
+            android:label="@string/title_activity_mission_1_task_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mission_1question_1_task_1"
+            android:label="@string/title_activity_mission_1question_1_task_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".home_activity" />
+
+    </application>
+
+</manifest>
